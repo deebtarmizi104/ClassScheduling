@@ -46,6 +46,7 @@ Order in which processes gets executed
 | 1103 | 1 | 5 | 6 |
 
 Average waiting time = 2.33
+
 Average turn around time = 4.33
 
 # Conclusion
