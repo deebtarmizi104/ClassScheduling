@@ -14,7 +14,7 @@ Describe what you have considered
 
 # Analysis
 
-| Course | Arrival Time | Burst Time | Priority |
+| Course | Arrival Time | Duration | Priority |
 | :---------------: | :---------------: | :---------------: | :----------------: |
 | 2201 | 1 | 3 | 2 |
 | 3401 | 2 | 2 | 3 |
@@ -31,4 +31,6 @@ Give an analysis of your algo and compare it with the other two
 ## Priority Scheduling
 
 Give an analysis of your algo and compare it with the other two
+
+# Conclusion
 
