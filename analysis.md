@@ -24,13 +24,19 @@ Describe what you have considered
 
 Give an analysis of your algo and compare it with the other two
 
+### Output:
+
 ## SJF
 
 Give an analysis of your algo and compare it with the other two
 
+### Output:
+
 ## Priority Scheduling
 
 Give an analysis of your algo and compare it with the other two
+
+### Output:
 
 # Conclusion
 
