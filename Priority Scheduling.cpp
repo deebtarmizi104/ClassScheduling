@@ -53,7 +53,7 @@ void findAverageTime(Process process[], int n)
     findTurnAroundTime(process, n, wt, tat);
 
     // display processes along with all details
-    cout << "Processes  "<< " Burst time  "<< " Waiting time  " << " Turn around time\n";
+    cout << "Course Code  "<< " Duration  "<< " Waiting time  " << " Turn around time\n";
 
     // calculate total waiting time and total turn around time
     for (int i = 0; i < n; i++)
