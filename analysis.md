@@ -42,6 +42,16 @@ Give an analysis of your algo and compare it with the other two
 
 ### Output:
 
+| Course Code | Duration | Waiting Time | Turnaround Time |
+| :---------------: | :---------------: | :---------------: | :----------------: |
+| 2201 | 3 | 0 | 3 |
+| 3401 | 2 | 3 | 5 |
+| 1103 | 1 | 1 | 2 |
+
+Average waiting time = 1.33
+
+Average turn around time = 3.33
+
 ## Priority Scheduling
 
 Give an analysis of your algo and compare it with the other two
