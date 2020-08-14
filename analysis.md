@@ -38,5 +38,15 @@ Give an analysis of your algo and compare it with the other two
 
 ### Output:
 
+Order in which processes gets executed
+| Course | Duration | Waiting Time | Turnaround Time |
+| :---------------: | :---------------: | :---------------: | :----------------: |
+| 3401 | 2 | 0 | 2 |
+| 2201 | 3 | 2 | 5 |
+| 1103 | 1 | 5 | 6 |
+
+Average waiting time = 2.33
+Average turn around time = 4.33
+
 # Conclusion
 
