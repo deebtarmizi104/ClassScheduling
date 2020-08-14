@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <iomanip>
+
 using namespace std;
 //structure for every process
 struct Course {
@@ -62,13 +64,14 @@ void findavgTime(Course proc[], int n) {
    // Function to find turn around time for
    // all processes
    findTurnAroundTime(proc, n, waiting_time, turn_around_time);
-   cout << "Processes " << " Burst time " << " Waiting time " << " Turn around time\n";
+   cout << "Course Code " << " Duration " << " Waiting time " << " Turn around time\n";
    for (int i = 0; i < n; i++) {
       total_wt = total_wt + waiting_time[i];
       total_tat = total_tat + turn_around_time[i];
       cout << " " << proc[i].ccode << "\t\t" << proc[i].duration << "\t\t " << waiting_time[i] << "\t\t " << turn_around_time[i] << endl;
    }
-   cout << "\nAverage waiting time = " << (float)total_wt / (float)n; cout << "\nAverage turn around time = " << (float)total_tat / (float)n;
+   cout << "\nAverage waiting time = " << fixed << setprecision(2) << (float)total_wt / (float)n; 
+   cout << "\nAverage turn around time = " << fixed << setprecision(2) << (float)total_tat / (float)n;
 }
 // main function
 int main() {
