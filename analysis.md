@@ -14,7 +14,7 @@ Describe what you have considered
 
 # Analysis
 
-| Course | Arrival Time | Duration | Priority |
+| Course Code| Arrival Time | Duration | Priority |
 | :---------------: | :---------------: | :---------------: | :----------------: |
 | 2201 | 1 | 3 | 2 |
 | 3401 | 2 | 2 | 3 |
@@ -26,7 +26,7 @@ Give an analysis of your algo and compare it with the other two
 
 ### Output:
 
-| Course | Duration | Waiting Time | Turnaround Time |
+| Course Code | Duration | Waiting Time | Turnaround Time |
 | :---------------: | :---------------: | :---------------: | :----------------: |
 | 2201 | 3 | 0 | 3 |
 | 3401 | 2 | 3 | 5 |
@@ -49,7 +49,7 @@ Give an analysis of your algo and compare it with the other two
 ### Output:
 
 Order in which processes gets executed
-| Course | Duration | Waiting Time | Turnaround Time |
+| Course Code | Duration | Waiting Time | Turnaround Time |
 | :---------------: | :---------------: | :---------------: | :----------------: |
 | 3401 | 2 | 0 | 2 |
 | 2201 | 3 | 2 | 5 |
