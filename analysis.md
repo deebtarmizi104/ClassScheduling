@@ -26,6 +26,16 @@ Give an analysis of your algo and compare it with the other two
 
 ### Output:
 
+| Course | Duration | Waiting Time | Turnaround Time |
+| :---------------: | :---------------: | :---------------: | :----------------: |
+| 2201 | 3 | 0 | 3 |
+| 3401 | 2 | 3 | 5 |
+| 1103 | 1 | 5 | 6 |
+
+Average waiting time = 2.67
+
+Average turn around time = 4.67
+
 ## SJF
 
 Give an analysis of your algo and compare it with the other two
