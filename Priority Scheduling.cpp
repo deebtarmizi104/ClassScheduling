@@ -14,7 +14,7 @@ struct Process
 
 //sort course priority
 bool sortPriority (Process a, Process b){
-	return(a.priority > b.priority);
+	return(a.priority < b.priority);
 }
 
 // function to find the waiting time for all processes
