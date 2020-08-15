@@ -67,7 +67,8 @@ int main()
     Process process[] = {{2201, 3, 1}, {3401, 2, 2}, {1103, 1, 3}};
     
 	int n = sizeof process / sizeof process[0];
-
+	
+	cout << "Order in which processes gets executed\n";
     findAverageTime(process, n);
 
     return 0;
