@@ -61,9 +61,9 @@ Give an analysis of your algo and compare it with the other two
 Order in which processes gets executed
 | Course Code | Duration | Waiting Time | Turnaround Time |
 | :---------------: | :---------------: | :---------------: | :----------------: |
-| 3401 | 2 | 0 | 2 |
-| 2201 | 3 | 2 | 5 |
 | 1103 | 1 | 5 | 6 |
+| 2201 | 3 | 2 | 5 |
+| 3401 | 2 | 0 | 2 |
 
 Average waiting time = 2.33
 
