@@ -48,8 +48,8 @@ Order in which processes gets executed
 | Course Code | Duration | Waiting Time | Turnaround Time |
 | :---------------: | :---------------: | :---------------: | :----------------: |
 | 2201 | 3 | 0 | 3 |
-| 3401 | 2 | 3 | 5 |
 | 1103 | 1 | 1 | 2 |
+| 3401 | 2 | 3 | 5 |
 
 Average waiting time = 1.33
 
