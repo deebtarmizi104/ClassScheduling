@@ -4,6 +4,8 @@
 2. Nur Iwana Binti Ahmad Radzi 1812984
 3. Wan Nurul Adibah binti Wan Tarmizi 1814162
 
+Section 3
+
 # Introduction
 
   In computing, scheduling method by which work is assigned to resources that complete the work. The work may be virtual computation elements such as threads, processes or data flows. Scheduling is fundamental to computing itself, and an essential part of the computer system execution model; the scheduling concept makes it possible to have multitasking computers with a single central processing unit. In this paper, we analyze the scheduling method specified in class scheduling using 3 algorithm which is FCFS, SJF, and Priority Scheduling.  Class scheduling is same as CPU scheduling but Class scheduling is non-preemptive algorithm. And we choose the  appropriate algorithm for the case that does not have to prior any process to be prioritized at first. 
@@ -40,7 +42,8 @@ Average turn around time = 4.67
 
 ## SJF
 
-  Using SJF algorithm that performed in Non-Preemptive scheduling, The CPU does not require processes in the ready queue to move the processes being executed by the CPU even if there is a smaller burst time for the new operation.
+Shortest-Job-First(SJF) works by executing the shortest burst time or duration first. SJF by default, is a non-preemptive schedulling. Using SJF algorithm that performed in Non-Preemptive scheduling, the CPU does not require processes in the ready queue to move the processes being executed by the CPU even if there is a smaller burst time for the new operation. This is the best approach to minimize the waiting time of the process. In order to implement SJF, the duration or the burst time should have been known by the processor prior execution. With the information, it will uses these lengths to schedule the process with the shortest time. 
+  
 
 ### Output:
 
@@ -73,4 +76,4 @@ Average waiting time = 1.67
 Average turn around time = 3.67
 
 # Conclusion
-  In summary, the class scheduling that was given show up the different result of average waiting time for each kind of algorithm we use. As compared to the other algorithms, SJF algorithm has the shortest average waiting time and average turn around time with 1.33 and 3.33 respectively. Then, it followed by Priority algorithm and the last one is FcFS algorithm.
+  In summary, the class schedulings that were given show up different result of average waiting time for different kind of algorithm we use. As compared to the other algorithms, SJF algorithm has the shortest average waiting time and average turn around time with 1.33 and 3.33 respectively. Then, it followed by Priority algorithm and the last one is FcFS algorithm.
