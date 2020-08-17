@@ -6,13 +6,14 @@
 
 # Introduction
 
-Describe the algorithms of your choice
+  In computing, scheduling method by which work is assigned to resources that complete the work. The work may be virtual computation elements such as threads, processes or data flows. Scheduling is fundamental to computing itself, and an essential part of the computer system execution model; the scheduling concept makes it possible to have multitasking computers with a single central processing unit. In this paper, we analyze the scheduling method specified in class scheduling using 3 algorithm which is FCFS, SJF, and Priority Scheduling.  Class scheduling is same as CPU scheduling but Class scheduling is non-preemptive algorithm. And we choose the  appropriate algorithm for the case that does not have to prior any process to be prioritized at first. 
 
 # Consideration
 
 Describe what you have considered
 
 # Analysis
+
 
 | Course Code| Arrival Time | Duration | Priority |
 | :---------------: | :---------------: | :---------------: | :----------------: |
@@ -22,7 +23,7 @@ Describe what you have considered
 
 ## FCFS
 
-Give an analysis of your algo and compare it with the other two
+  Examine the class scheduling with The algorithm FCFS (First in First Serve) has the same definition as FIFO (First in First out), where the front line is first served. Different from priority (SJF) or first named Shortest work, which serves the shortest period of jobs.
 
 ### Output:
 
@@ -39,7 +40,7 @@ Average turn around time = 4.67
 
 ## SJF
 
-Give an analysis of your algo and compare it with the other two
+  Using SJF algorithm that performed in Non-Preemptive scheduling, The CPU does not require processes in the ready queue to move the processes being executed by the CPU even if there is a smaller burst time for the new operation.
 
 ### Output:
 
@@ -56,7 +57,7 @@ Average turn around time = 3.33
 
 ## Priority Scheduling
 
-Give an analysis of your algo and compare it with the other two
+  Priority Scheduling is a programming algorithm that prioritizes the highest priority process. Every single method has its own priority. Priority scheduling can be performed either preventively or non-preventively. On non-preemptive, newly arrived processes it is not possible to interact with operating processes, but only to place them in queue.
 
 ### Output:
 
@@ -72,4 +73,4 @@ Average waiting time = 1.67
 Average turn around time = 3.67
 
 # Conclusion
-
+  In summary, the class scheduling that was given show up the different result of average waiting time  for each kind of algorithm we use. 
