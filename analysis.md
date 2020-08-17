@@ -27,7 +27,7 @@ Describe what you have considered
 
 ### Output:
 
-Order in which processes gets executed
+Order of scheduling for the courses
 | Course Code | Duration | Waiting Time | Turnaround Time |
 | :---------------: | :---------------: | :---------------: | :----------------: |
 | 2201 | 3 | 0 | 3 |
@@ -44,7 +44,7 @@ Average turn around time = 4.67
 
 ### Output:
 
-Order in which processes gets executed
+Order of scheduling for the courses
 | Course Code | Duration | Waiting Time | Turnaround Time |
 | :---------------: | :---------------: | :---------------: | :----------------: |
 | 2201 | 3 | 0 | 3 |
@@ -61,7 +61,7 @@ Average turn around time = 3.33
 
 ### Output:
 
-Order in which processes gets executed
+Order of scheduling for the courses
 | Course Code | Duration | Waiting Time | Turnaround Time |
 | :---------------: | :---------------: | :---------------: | :----------------: |
 | 1103 | 1 | 5 | 6 |
@@ -73,4 +73,4 @@ Average waiting time = 1.67
 Average turn around time = 3.67
 
 # Conclusion
-  In summary, the class scheduling that was given show up the different result of average waiting time  for each kind of algorithm we use. 
+  In summary, the class scheduling that was given show up the different result of average waiting time for each kind of algorithm we use. As compared to the other algorithms, SJF algorithm has the shortest average waiting time and average turn around time with 1.33 and 3.33 respectively. Then, it followed by Priority algorithm and the last one is FcFS algorithm.
